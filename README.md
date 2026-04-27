@@ -1,9 +1,6 @@
 # landsat-music-video
 Create music videos using NASA landsat imagery
 
-## Setup
-Run `source .venv/bin/activate`
-
 ## Usage
 
 ### Generate specific words
