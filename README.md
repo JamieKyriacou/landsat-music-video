@@ -14,10 +14,10 @@ Create music videos using NASA landsat imagery
 ```
 
 ### Full song
-`/run.sh --song "Pink Floyd Wish You Were Here"`
+`/run.sh video --song "Pink Floyd Wish You Were Here"`
 
 ### Full song from a local file
-`/run.sh --audio /path/to/song.mp3`
+`/run.sh video --audio /path/to/song.mp3`
 
 ## AI Disclosure
 This project was made with the help of Claude Code
