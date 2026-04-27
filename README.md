@@ -6,16 +6,21 @@ Run `source .venv/bin/activate`
 
 ## Usage
 
+### Generate specific words
+`./run.sh words "hello world"`
+
 ### Specific Lines of a Song
-  python3 landsat_video.py \
+```
+  ./run.sh video \
     --song "Pink Floyd Wish You Were Here" \
-    --line "How I wish how I wish you were here" \
-    --line "Were just two lost souls swimming in a fish bowl"
+    --line "How I wish how I wish you were here"
+```
 
-# Full song
-  python3 landsat_video.py \
-    --song "Pink Floyd Wish You Were Here"
+### Full song
+`/run.sh --song "Pink Floyd Wish You Were Here"`
 
-# Full song from a local file
-  python3 landsat_video.py \
-    --audio /path/to/song.mp3
+### Full song from a local file
+`/run.sh --audio /path/to/song.mp3`
+
+## AI Disclosure
+This project was made with the help of Claude Code

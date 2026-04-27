@@ -1,0 +1,4 @@
+openai-whisper
+pillow
+requests
+yt-dlp
